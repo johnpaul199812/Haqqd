@@ -11,7 +11,7 @@ for((;;)); do
 
 		sudo systemctl stop haqqd
 		cd $HOME/haqq && git fetch
-    git checkout v1.2.0
+                git checkout v1.2.0
 		make install
 		echo "restart the system..."
 		sudo systemctl restart haqqd
